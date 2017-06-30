@@ -1,0 +1,32 @@
+{
+  "name": "node-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "blamer": "^0.1.13",
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "escomplex": "^2.0.0-alpha",
+    "escomplex-ast-moz": "^0.2.1",
+    "esprima": "^2.7.2",
+    "express": "~4.15.2",
+    "fs": "0.0.1-security",
+    "git-tools": "^0.2.1",
+    "gitignore-parser": "0.0.2",
+    "globby": "^6.1.0",
+    "hbs": "~4.0.1",
+    "ignore": "^3.3.3",
+    "is-valid-path": "^0.1.1",
+    "jscpd": "^0.6.11",
+    "lodash": "^4.17.4",
+    "morgan": "~1.8.1",
+    "recursive-readdir": "^2.2.1",
+    "routes": "^2.1.0",
+    "serve-favicon": "~2.4.2"
+  }
+}
