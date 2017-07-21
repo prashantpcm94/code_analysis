@@ -72,14 +72,6 @@ function analyzeRepo(arguments) {
 	})
 }
 
-function reportsAnalysis(reports) {
-	var aggregateData = {};
-
-	reports.forEach(function (item) {
-
-	});
-}
-
 var arguments = {
 	repoPath : '/Users/shubham/Documents/farmguide/node_api/',
 	committish : 'CenterCIMaster',
@@ -89,4 +81,4 @@ var arguments = {
 	]
 }
 
-console.log(analyzeRepo(arguments));
+analyzeRepo(arguments);
