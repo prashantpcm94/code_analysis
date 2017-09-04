@@ -5,4 +5,4 @@ line 77 by branch name;
 checkout to the same branch;
 
 run 
-''' node controller/technical_debt/technical_debt.js ''' 
+$ node controller/technical_debt/technical_debt.js  
